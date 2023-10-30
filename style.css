@@ -60,6 +60,10 @@ button{
     padding-top: 1.5em;
     color: antiquewhite;
 }
+.sidebar-links:hover{
+    color:#ac4bd6;
+    text-decoration: none;
+}
 
 .header{
     display:flex;
@@ -186,20 +190,29 @@ button{
     display: flex;
     flex-direction: column;
     padding: 2em;
+    align-items: center;
 }
+
+.more-info{
+    flex-direction: column;
+}
+
 .email-box{
     background-color: #ac4bd6;
     border: 2px solid #363532;
     border-radius: 10px;
     padding: 2em;
     margin-top: 10em;
-    height: 10em;
+    height: 15em;
 }
 .email-box p {
-    text-align: center;
+    font-size: 1.5em;
 }
 .email-box input[type='text']{
     width: 100%;
+}
+#pc{
+    width: 10em;
 }
 
 .contact-info{
@@ -256,6 +269,11 @@ button{
     .square-div{
         flex-flow: row nowrap;
     }
+    .bkgrd{
+        width: 5em;
+        position: absolute;
+        background-color: #ac4bd6;
+    }
 
     .services{
         flex-flow: row nowrap;
@@ -267,6 +285,15 @@ button{
       padding: 3em;
     }
 
-    
+    .more-info{
+        flex-direction: row;
+    }
+    #pc{
+        width: 20em;
+    }
+
+    .email-box{
+        width: 40em;
+    }
     
 }

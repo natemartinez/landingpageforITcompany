@@ -46,17 +46,20 @@
     </div>  
     <div class='solutions section'>
       <h2 id='solutions-header' class='text-center'>Welcome to IT Solutions</h2>  
-        <div class='square-div' >
+        <div class='square-div'>
+      
             <div class='square'>
                 <img id='data-icon' class='square-icons' src="images/data.png" alt="">
-                <h4 class='text-center'>data icon</h4>
+                <h4 class='text-center'>Data icon</h4>
                 <p class='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
+          
             <div class='square'>
                <img class='square-icons' src="images/clean-phone.png" alt="">
                <h4 class='text-center'>Phone icon</h4>
                <p class='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
+          
             <div class='square'>
                 <img class='square-icons' src="images/arrow.png" alt="">
                <h4 class='text-center'>Arrow icon</h4>
@@ -86,9 +89,9 @@
         </div>
     </div>
     <div class='benefits section'>
-        <div class='d-flex flex-column align-items-center'>
+        <div class='d-flex flex-column align-items-center text-center benefits-header'>
           <img id='benefits-img' src="images/devices.png" alt="laptop and phone devices">
-          <h3>We can fix every device</h3>            
+          <h3>Check out why we are the best in business</h3>            
         </div>
 
         <div class='benefits-text'>
@@ -116,15 +119,24 @@
         </div>   
     </div>
     <div class='info section'>
-        <div class='text-center'>
+      
+        <div class='more-info d-flex align-items-center text-center'>
+           <img id='pc' src="images/pc.png" alt="">
+           <div>
             <h3>For more info</h3>
             <p>Check out our testimonals, reviews, and other products</p>
             <button>More info</button>
+           </div> 
+            
         </div>
-
-        <div class='email-box'>
+        
+        <div class='email-box text-center'>
+          <div>
             <p>Join our newsletter for future announcements</p>
             <input type="text" placeholder='Email address'>
+          </div>
+            
+
         </div>
     </div>
     <div class='contact-info section'>
@@ -145,7 +157,7 @@
     <div class='footer'>
         <p>Privacy</p>
         <p>Terms of use</p>
-        <p>Copyright 2023</p>
+        <p>@Copyright 2023</p>
     </div>
    </div> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
